@@ -9,3 +9,12 @@ Learning project for Test Driven Development using Raspberry Pi and Embedded pro
 ```
 shh pi@<ip_address>
 ```
+
+# cpputest setup
+ - Install GCC (I used cygwin to install packages) and Cmake, and add them to path (Windows)
+ - install cpputest:
+
+```
+ cd cpputest
+ cmake CMakeLists.txt
+```
